@@ -7,13 +7,13 @@ namespace Assignment1
         public void Run()
         {
             Console.Write("Enter a number: ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= number; i++)
                 sum += i;
 
-            Console.WriteLine($"Sum of numbers from 1 to {n} is {sum}");
+            Console.WriteLine($"Sum of numbers from 1 to {number} is {sum}");
             Console.ReadKey();
 
         }

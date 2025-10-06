@@ -6,7 +6,10 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Name Hikmat Ullah");
+            Console.WriteLine(" Name: Hikmat Ullah ");
+            Console.WriteLine(" Roll No: 23011556-132 ");
+            Console.WriteLine(" Assignment No: 1 ");
+            Console.WriteLine(" ................... ");
             Console.WriteLine("Enter question No:(1-10)");
             int choice = Convert.ToInt32(Console.ReadLine());
 
